@@ -1,0 +1,27 @@
+limite 512 bytes por estagio
+modo real
+2 estagios, no final deve chamar um kernel feito em assembly
+kernel -> joguinho
+
+prmeiro:
+  0xAA55
+  carrega o boot 2
+segundo:
+  carrega o q for util pro kernel e o kernel
+  passa controle pro kernel
+  "carregando o kernel - preparando ambiente da maquina"
+  escrever na tela acompanhamento dos processos
+kernel:
+  gerenciamento de recursos
+  apresentações/movimentos/jogos
+  todo trab extra eh levado em conta
+  obrigatorio usar int 13h, modo video vga
+
+
+Vai ser cobrado:
+  entender:
+    processo de boot
+    assembly
+    segment offset
+    utilização dos registradores de segmento
+kernel bem implementado e criativo
